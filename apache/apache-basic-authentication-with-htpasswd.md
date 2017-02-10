@@ -1,8 +1,6 @@
 ## Apache Virtual Host With Basic Authentication
 
- 
-
-### 1. htpasswd filecat /etc/apache2/.htpasswd
+### 1. Htpasswd File
 
 ```
 # Generate:
