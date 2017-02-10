@@ -1,6 +1,9 @@
 ##### Apache Virtual Host Directory
 
 ```
+# vi /usr/local/apache2/sites-available/vhosts.conf
+# Directory config with allow override
+
 VirtualHost *:80>
         ServerAdmin webmaster@localhost
 
