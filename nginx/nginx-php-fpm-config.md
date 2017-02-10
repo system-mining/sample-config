@@ -1,7 +1,5 @@
 #### Nginx php-fpm configuration
 
-
-
 ```
 # vi /etc/nginx/site-avaiable/php-fpm.conf
 
