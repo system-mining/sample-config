@@ -1,6 +1,20 @@
-### Sample Configurations
+### Sample Configuration Files
 
-Sample configuration file for all application
+#### The collection of sample configuration of many applications  that you meet in your programming live:
+
+* Apache
+* Nginx
+* Docker
+* Docker compose
+* Pm2 
+* Supervisord
+* ...
+
+
+
+
+
+
 
 
 
