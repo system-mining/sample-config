@@ -1,8 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Nginx Reverse Proxy Config](nginx-reverse-proxy-config.md)
-* Nginx
+* [Nginx](nginx.md)
+  * [Nginx Reverse Proxy Config](nginx/nginx-reverse-proxy-config.md)
 * [Apache](apache.md)
-  * Apache Virtual Host Configuration
 
