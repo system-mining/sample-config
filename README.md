@@ -1,8 +1,6 @@
-### Nginx Reverse Proxy Config
+### Sample Configurations
 
-
-
-### 
+Sample configuration file for all application
 
 
 
