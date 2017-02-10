@@ -1,7 +1,5 @@
 ### Apache Virtual Host Configuration
 
-
-
 #### Name-Based Virtual Host
 
 ```
@@ -10,7 +8,7 @@ NameVirtualHost *:80
 
 <VirtualHost *:80>
     ServerAdmin admin@webmaster.com
-    
+
     DocumentRoot "/var/www/html"
     ServerName example_1.com
     ServerAlias www.example_1.com
@@ -23,11 +21,15 @@ NameVirtualHost *:80
    DocumentRoot "/var/www/html"
     ServerName example_2.com
     ServerAlias www.example_2.com
-    
+
     ErrorLog "/var/log/apache2/example_2_error_log"
     CustomLog "/var/log/apache2/example_2_access_log" common
 </VirtualHost>
 ```
+
+
+
+##### 
 
 
 
