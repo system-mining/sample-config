@@ -1,5 +1,7 @@
 ### Nginx Reverse Proxy Configuration
 
+#### Nginx reverse proxy configuration 
+
 ```
 server {
         location /checkin/ {
