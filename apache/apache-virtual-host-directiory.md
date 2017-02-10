@@ -1,4 +1,4 @@
-##### Virtual Host Config with Override
+##### Apache Virtual Host Directory
 
 ```
 VirtualHost *:80>
