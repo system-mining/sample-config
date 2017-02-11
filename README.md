@@ -22,13 +22,23 @@
 >
 > ##### 5- Extras information \[Optional\]
 
-Example:
+Example: **An Apache Virtual Host Configuration file**
 
-### Apache Virtual Host Configuration
+
 
 ---
 
 #### Apache Virtual Host Configuration
+
+**Description: **
+
+> Config virtual host to redirect different request source \(ip-base, domain-name base \) to relevant destination 
+>
+> - Scope: simple config 
+>
+> - Tested environment : Ubuntu 14.04 lts, apache 2.4
+
+**Config:** 
 
 ```
 # vi /usr/local/apache2/sites-available/vhosts.conf
@@ -54,6 +64,12 @@ NameVirtualHost *:80
     CustomLog "/var/log/apache2/example_2_access_log" common
 </VirtualHost>
 ```
+
+**Source: **
+
+- [https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
+
+**Extra infomation:**
 
 ---
 
