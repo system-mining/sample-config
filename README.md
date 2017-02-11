@@ -2,7 +2,7 @@
 
 #### I. Introduction
 
-##### The collection of sample configuration of applications for quick search & apply 
+##### The collection of sample configuration of applications for quick search & apply
 
 * Apache
 * Nginx
