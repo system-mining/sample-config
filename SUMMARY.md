@@ -12,5 +12,5 @@
   * [Nginx Php Fpm Config](nginx/nginx-php-fpm-config.md)
   * Nginx Basic Authentication With Htaccess
 * Docker
-* Linux
+* [Linux](linux.md)
 
