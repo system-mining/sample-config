@@ -28,7 +28,9 @@ Example:
 
 ### Apache Virtual Host Configuration
 
-#### Name-Based Virtual Host
+----
+
+#### Apache Virtual Host Configuration
 
 ```
 # vi /usr/local/apache2/sites-available/vhosts.conf
