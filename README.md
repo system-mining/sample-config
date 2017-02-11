@@ -2,7 +2,7 @@
 
 #### I. Introduction
 
-##### The collection of sample configuration of many applications
+##### [^1]The collection of sample configuration of many applications
 
 * Apache
 * Nginx
@@ -55,7 +55,7 @@ NameVirtualHost *:80
 </VirtualHost>
 ```
 
----
+-----
 
 
 
