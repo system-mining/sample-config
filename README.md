@@ -14,9 +14,7 @@
 * Description \[Optional\]
 * Config content
 * Source
-* Extra t
-
-
+* Extra information
 
 
 
