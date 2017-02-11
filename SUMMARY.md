@@ -9,9 +9,9 @@
 * [Jsreport](jsreport.md)
   * [JsReport Behind Nignx Reverse Proxy](jsreport-behind-nignx-reverse-proxy.md)
   * [Manage JsReport With Pm2](manage-jsreport-with-pm2.md)
-  * [Linux](linux.md)
 * [Nginx](nginx.md)
   * [Nginx Reverse Proxy Config](nginx/nginx-reverse-proxy-config.md)
   * [Nginx Php Fpm Config](nginx/nginx-php-fpm-config.md)
   * Nginx Basic Authentication With Htaccess
+* [Linux](linux.md)
 
