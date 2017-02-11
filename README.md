@@ -37,7 +37,7 @@ NameVirtualHost *:80
 <VirtualHost *:80>
     ServerAdmin admin@webmaster.com
 
-    DocumentRoot "/var/www/html"
+    DocumentRoot "/var/www/ex1"
     ServerName example_1.com
     ServerAlias www.example_1.com
 
@@ -46,7 +46,7 @@ NameVirtualHost *:80
 </VirtualHost>
 
 <VirtualHost *:80>
-   DocumentRoot "/var/www/html"
+   DocumentRoot "/var/www/ex2"
     ServerName example_2.com
     ServerAlias www.example_2.com
 
