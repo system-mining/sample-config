@@ -10,8 +10,6 @@
 * Docker compose
 * .... 
 
----
-
 #### II. Sample configuration file structure:
 
 > ##### 1 - Config name
@@ -28,7 +26,7 @@ Example:
 
 ### Apache Virtual Host Configuration
 
-----
+---
 
 #### Apache Virtual Host Configuration
 
