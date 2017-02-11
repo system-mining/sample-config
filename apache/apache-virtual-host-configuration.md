@@ -1,6 +1,14 @@
 ### Apache Virtual Host Configuration
 
-#### Name-Based Virtual Host
+**Description: **
+
+> Config virtual host to redirect different request source \(ip-base, domain-name base \) to relevant destination
+>
+> * Scope: simple config
+>
+> * Tested environment : Ubuntu 14.04 lts, apache 2.4
+
+**Config:**
 
 ```
 # vi /usr/local/apache2/sites-available/vhosts.conf
@@ -9,7 +17,7 @@ NameVirtualHost *:80
 <VirtualHost *:80>
     ServerAdmin admin@webmaster.com
 
-    DocumentRoot "/var/www/html"
+    DocumentRoot "/var/www/ex1"
     ServerName example_1.com
     ServerAlias www.example_1.com
 
@@ -18,7 +26,7 @@ NameVirtualHost *:80
 </VirtualHost>
 
 <VirtualHost *:80>
-   DocumentRoot "/var/www/html"
+   DocumentRoot "/var/www/ex2"
     ServerName example_2.com
     ServerAlias www.example_2.com
 
@@ -26,6 +34,14 @@ NameVirtualHost *:80
     CustomLog "/var/log/apache2/example_2_access_log" common
 </VirtualHost>
 ```
+
+**Source: **
+
+* [https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
+
+**Extra infomation:**
+
+TO\_BE\_UPDATE
 
 
 
