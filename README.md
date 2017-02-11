@@ -2,7 +2,7 @@
 
 #### I. Introduction
 
-##### The collection of sample configuration of applications for quick search & use
+##### The collection of sample configuration of applications for quick search & apply 
 
 * Apache
 * Nginx
@@ -10,7 +10,13 @@
 * Docker compose
 * .... 
 
-#### II. Sample configuration file structure:
+#### II. User Guide
+
+**Quick Type Keyword &gt; Search &gt; Copy Config &gt; Enjoy it!**
+
+![](/assets/Selection_222.png)
+
+#### III. Sample configuration file structure:
 
 > ##### 1 - Config name
 >
@@ -24,21 +30,19 @@
 
 Example: **An Apache Virtual Host Configuration file**
 
-
-
 ---
 
 #### Apache Virtual Host Configuration
 
 **Description: **
 
-> Config virtual host to redirect different request source \(ip-base, domain-name base \) to relevant destination 
+> Config virtual host to redirect different request source \(ip-base, domain-name base \) to relevant destination
 >
-> - Scope: simple config 
+> * Scope: simple config
 >
-> - Tested environment : Ubuntu 14.04 lts, apache 2.4
+> * Tested environment : Ubuntu 14.04 lts, apache 2.4
 
-**Config:** 
+**Config:**
 
 ```
 # vi /usr/local/apache2/sites-available/vhosts.conf
@@ -67,7 +71,7 @@ NameVirtualHost *:80
 
 **Source: **
 
-- [https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
+* [https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
 
 **Extra infomation:**
 
