@@ -14,7 +14,7 @@
 
 **Quick Type Keyword &gt; Search &gt; Copy Config &gt; Enjoy it!**
 
-![](/assets/Selection_222.png)
+![](/assets/Selection_223.png)
 
 #### III. Sample configuration file structure:
 
