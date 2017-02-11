@@ -13,8 +13,10 @@
 * Config name
 * Description \[Optional\]
 * Config content
-* Source
-* Extra information
+* Source \[Optional\]
+* Extra information \[Optional\]
+
+
 
 
 
