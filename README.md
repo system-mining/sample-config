@@ -10,15 +10,17 @@
 
 #### Sample configuration file structure:
 
-* Config name
-* Description \[Optional\]
-* Config content
-* Source \[Optional\]
-* Extra information \[Optional\]
-
-
-
-
+> ##### Config name
+>
+> ##### Description \[Optional\]
+>
+> ##### Config content
+>
+> ##### Source \[Optional\]
+>
+> ##### Extra information \[Optional\]
+>
+> #####
 
 
 
