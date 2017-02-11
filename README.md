@@ -1,6 +1,8 @@
-### Sample Configuration Files
+### Sample Configuration
 
-#### The collection of sample configuration of many applications
+#### I. Introduction
+
+##### The collection of sample configuration of many applications
 
 * Apache
 * Nginx
@@ -8,9 +10,9 @@
 * Docker compose
 * .... 
 
----------------------------------------------------------------------------------------------------------------------------------
+---
 
-#### Sample configuration file structure:
+#### II. Sample configuration file structure:
 
 > ##### 1 - Config name
 >
@@ -51,11 +53,9 @@ NameVirtualHost *:80
     ErrorLog "/var/log/apache2/example_2_error_log"
     CustomLog "/var/log/apache2/example_2_access_log" common
 </VirtualHost>
-
-
 ```
 
----------------------------------------------------------------------------------------------------------------------------------
+---
 
 
 
