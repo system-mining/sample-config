@@ -22,7 +22,7 @@ server {
 
     location ~ \.php$ {
         try_files $uri =404;
-        fastcgi_pass unix:/var/run/php5-fpm.sock;  # find socket file in /etc/php/fpm directory
+        fastcgi_pass unix:/var/run/php5-fpm.sock;  # find socket file in /etc/php5/fpm directory
         fastcgi_index index.php;
         include fastcgi_params;
     }
