@@ -1,10 +1,11 @@
 ### Nginx Reverse Proxy Configuration
 
-#### Nginx reverse proxy configuration 
+#### Nginx reverse proxy configuration
 
 ```
 server {
-        location /checkin/ {
+
+       location /checkin/ {
        rewrite ^/checkin(/.*)$ $1 break;
        add_header Access-Control-Allow-Origin *;
        add_header X-Frame-Options SAMEORIGIN;
