@@ -1,4 +1,8 @@
-##### Apache Virtual Host Directory
+### Apache Virtual Host Directory
+
+**Description:**
+
+**Config:**
 
 ```
 # vi /usr/local/apache2/sites-available/vhosts.conf
@@ -26,6 +30,11 @@ VirtualHost *:80>
         LogLevel debug
 </VirtualHost>
 ```
+
+**Source:**
+
+* [https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
+* [https://httpd.apache.org/docs/2.4/vhosts/examples.html](https://httpd.apache.org/docs/2.4/vhosts/examples.html)
 
 
 
