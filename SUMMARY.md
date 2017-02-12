@@ -11,8 +11,7 @@
 * [Nginx](nginx.md)
   * [Nginx Reverse Proxy Config](nginx/nginx-reverse-proxy-config.md)
   * [Nginx Php Fpm Config](nginx/nginx-php-fpm-config.md)
-  * Nginx Basic Authentication With Htaccess
-* [Linux](linux.md)
+  * [Nginx Basic Authentication With Htaccess](nginx/nginx-basic-authentication-with-htaccess.md)
 * Ssh
   * [Ssh config file](ssh-config-file.md)
 
