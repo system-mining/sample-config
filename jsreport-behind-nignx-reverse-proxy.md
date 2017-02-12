@@ -54,5 +54,3 @@ server {
 
 **Extra information:**
 
-
-
