@@ -1,6 +1,10 @@
 ## Manage Jsreport with pm2
 
-**Problem**: Want to manage jsreport service with pm2
+**Description:**
+
+> Want to manage jsreport service with pm2?
+
+**Config:**
 
 ```
 # Create new program.json in jsreport directory
@@ -25,6 +29,16 @@ pm2 start program.json
 # Check status
 pm2 status
 ```
+
+**Source:**
+
+* [http://thinhvoxuan.me/start-jsreport-with-pm/](http://thinhvoxuan.me/start-jsreport-with-pm/)
+
+**Extra Information:**
+
+**Tags:**
+
+\#jsreport \#pm2 
 
 
 
