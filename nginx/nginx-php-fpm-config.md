@@ -27,7 +27,6 @@ server {
         include fastcgi_params;
     }
 }
-
 ```
 
 **Source: **
@@ -35,13 +34,11 @@ server {
 * [https://support.rackspace.com/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/](https://support.rackspace.com/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/)
 * [/h ttp://blog.chrismeller.com/configuring-and-optimizing-php-fpm-and-nginx-on-ubuntu-or-debian](/h ttp://blog.chrismeller.com/configuring-and-optimizing-php-fpm-and-nginx-on-ubuntu-or-debian)
 
-**Extra information**
+**Extra information:**
 
-
+TOBEUPDATE
 
 **Tags:**
 
 \#nginx \#php-fpm  \#unix-socket
-
-
 
