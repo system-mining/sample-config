@@ -4,8 +4,6 @@
 
 > Config virtual host to redirect different request source \(ip-base, domain-name base \) to relevant destination
 >
-> * Scope: simple config
->
 > * Tested environment : Ubuntu 14.04 lts, apache 2.4
 
 **Config:**
