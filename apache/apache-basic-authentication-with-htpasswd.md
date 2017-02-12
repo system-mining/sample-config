@@ -1,9 +1,15 @@
 ## Apache Virtual Host With Basic Authentication
 
-### 1. Htpasswd File
+**Description:**
+
+> `htpasswd`is used to create and update the flat-files used to store usernames and password for basic authentication of HTTP users
+
+**Config**
+
+##### 1. Htpasswd File
 
 ```
-# Generate:
+Config# Generate:
 $ sudo htpasswd -c /etc/apache2/.htpasswd sample_user
 $ sudo htpasswd /etc/apache2/.htpasswd another_user
 
@@ -13,7 +19,7 @@ sample_user:$apr1$lzxsIfXG$tmCvCfb49vpPFwKGVsuYz.
 another_user:$apr1$p1E9MeAf$kiAhneUwr.MhAE2kKGYHK.
 ```
 
-### 2. Apache virtual host configuration
+##### 2. Apache virtual host configuration
 
 ```
 # vi /etc/apache2/sites-available/sample-auth.conf
@@ -33,5 +39,16 @@ another_user:$apr1$p1E9MeAf$kiAhneUwr.MhAE2kKGYHK.
 </VirtualHost>
 ```
 
+**Source:**
 
+* [https://httpd.apache.org/docs/current/programs/htpasswd.html](https://httpd.apache.org/docs/current/programs/htpasswd.html)
+* Htpassword generator online: [http://www.htaccesstools.com/htpasswd-generator/](http://www.htaccesstools.com/htpasswd-generator/)
+
+**Extra information:**
+
+TOBEUPDATE
+
+**Tags:**
+
+\#apache \#authentication \#http\_authentication \#htpasswd \#htpassword
 
