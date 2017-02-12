@@ -2,7 +2,7 @@
 
 **Description:**
 
-
+> Config apache virtual host with directory and override config
 
 **Config:**
 
@@ -38,5 +38,11 @@ VirtualHost *:80>
 * [https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
 * [https://httpd.apache.org/docs/2.4/vhosts/examples.html](https://httpd.apache.org/docs/2.4/vhosts/examples.html)
 
+**Extra Information:**
 
+TO-_BE-_UPDATE
+
+**Tags:**
+
+\#apache \#apache2 \#apache\_directory
 
