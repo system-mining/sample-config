@@ -2,7 +2,7 @@
 
 **Description**
 
-> Setup cache for caching content on Nginx
+> Simple setup cache for caching  proxy content on Nginx to improve application performance
 
 **Config**
 
@@ -42,6 +42,4 @@ TOBEUPDATE
 **Tags:**
 
 \#nginx \#nginx_cache \#proxycache _
-
-
 
