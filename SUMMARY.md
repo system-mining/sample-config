@@ -13,6 +13,7 @@
   * [Nginx Php Fpm Config](nginx/nginx-php-fpm-config.md)
   * [Nginx Basic Authentication With Htaccess](nginx/nginx-basic-authentication-with-htaccess.md)
   * [Nginx Proxy Cache Config  ](nginx/nginx-cache-config.md)
+  * [Nginx SSL Config](nginx/nginx-ssl-config.md)
 * Ssh
   * [Ssh config file](ssh-config-file.md)
 
