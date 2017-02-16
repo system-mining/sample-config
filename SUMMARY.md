@@ -16,4 +16,5 @@
   * [Nginx SSL Config](nginx/nginx-ssl-config.md)
 * Ssh
   * [Ssh config file](ssh-config-file.md)
+  * [Sudo Without password](ssh-without-sudo-passwd.md)
 
