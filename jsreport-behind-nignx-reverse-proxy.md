@@ -3,6 +3,12 @@
 **Description:**
 
 > Jsreport behind nginx reverse proxy on ubuntu
+>
+> Specs:
+>
+> * Ubuntu 14.04
+> * Nginx 1.11
+> * Jsreport 1.4
 
 **Config:**
 
