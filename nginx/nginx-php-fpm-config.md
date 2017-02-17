@@ -3,6 +3,11 @@
 **Description**
 
 > Setup Nginx run with PHP-fpm to process php file via unix socket
+>
+> Specs:
+>
+> * Ubuntu 16.04
+> * Nginx 1.11
 
 **Config**
 
