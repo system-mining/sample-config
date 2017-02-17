@@ -18,5 +18,5 @@
   * [Ssh config file](ssh-config-file.md)
   * [Sudo Without password](ssh-without-sudo-passwd.md)
 * Docker Compose Sample
-  * [Maihog docker-compose.yml](maihog.md)
+  * [Mailhog-docker-compose.yml](maihog.md)
 
