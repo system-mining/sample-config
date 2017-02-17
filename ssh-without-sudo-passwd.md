@@ -5,6 +5,10 @@
 > You want to run sudo command without type password like EC2 instance on Aws
 >
 > Warning: This may be make your system less security than using password for sudo, make sure that you has been disable ssh by password
+>
+> Specs:
+>
+> * Ubuntu 16.04
 
 **Config**
 
@@ -13,7 +17,6 @@
 
 #Add command bellow and save it
 your_user ALL=(ALL) NOPASSWD:ALL
-
 ```
 
 **Source**
@@ -28,6 +31,4 @@ TOBEUPDATE
 **Tags**
 
 \#ssh \#sudo \#sudo\_password
-
-
 
