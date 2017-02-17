@@ -3,6 +3,12 @@
 **Description:**
 
 > Config apache virtual host with directory and override config
+>
+> Specs:
+>
+> * Ubuntu 16.04
+> * Apache 2.4
+> * Php 5.6
 
 **Config:**
 
@@ -40,7 +46,7 @@ VirtualHost *:80>
 
 **Extra Information:**
 
-TO-_BE-_UPDATE
+TO-\_BE-\_UPDATE
 
 **Tags:**
 
