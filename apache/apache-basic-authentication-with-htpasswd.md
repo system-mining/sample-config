@@ -3,6 +3,14 @@
 **Description:**
 
 > `htpasswd`is used to create and update the flat-files used to store usernames and password for basic authentication of HTTP users
+>
+> Specs:
+>
+> * Ubuntu 16.04
+>
+> * Apache 2.4
+>
+> * Php 5.6
 
 **Config**
 
