@@ -3,6 +3,12 @@
 **Description:**
 
 > Setup SSL to secure the connection between server and client
+>
+> Specs:
+>
+> * Ubuntu 16.04
+>
+> * Nginx 1.11
 
 **Config**
 
@@ -20,7 +26,7 @@ server {
         index index.html index.htm;
 
         server_name your_domain.com;
-        
+
         # Config ssl certificate             
         ssl_certificate /etc/nginx/ssl/nginx.crt; # path to your crt file
         ssl_certificate_key /etc/nginx/ssl/nginx.key; # path to your key file
