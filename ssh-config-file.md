@@ -5,6 +5,10 @@
 > * You probably log in and out of a lot of remote servers \(or these days, local virtual machines\) on a daily basis. And it hard to remember all of the various usernames, remote addresses and command line options for things like specifying a non-standard connection port or forwarding local ports to the remote machine.
 >
 > * The easy way is add it into ~/.ssh/config file
+>
+> Specs:
+>
+> * Ubuntu 16.04
 
 #### Config
 
