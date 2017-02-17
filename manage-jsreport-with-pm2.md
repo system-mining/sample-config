@@ -3,6 +3,14 @@
 **Description:**
 
 > Want to manage jsreport service with pm2?
+>
+> Specs:
+>
+> * Ubuntu 16.04
+> * Jsreport 1.4
+> * Pm2 2.4.0
+
+
 
 **Config:**
 
@@ -38,7 +46,5 @@ pm2 status
 
 **Tags:**
 
-\#jsreport \#pm2 
-
-
+\#jsreport \#pm2
 
