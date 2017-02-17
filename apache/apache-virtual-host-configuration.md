@@ -4,7 +4,10 @@
 
 > Config virtual host to redirect different request source \(ip-base, domain-name base \) to relevant destination
 >
-> * Tested environment : Ubuntu 14.04 lts, apache 2.4
+> Specs:
+> * Apache 2.4
+> * Ubuntu 16.04
+> * Php 5.6
 
 **Config:**
 
