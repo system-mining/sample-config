@@ -3,6 +3,11 @@
 **Description**
 
 > Simple setup cache for caching  proxy content on Nginx to improve application performance
+>
+> Specs:
+>
+> * Ubuntu 16.04
+> * Nginx 1.11
 
 **Config**
 
