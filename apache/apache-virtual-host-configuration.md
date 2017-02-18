@@ -1,46 +1,13 @@
-### Sample Configuration
-
-#### I. Introduction
-
-##### The collection of sample configuration of applications for quick search & apply
-
-* Apache
-* Nginx
-* Docker
-* Docker compose
-* .... 
-
-#### II. User Guide
-
-**Quick Type Keyword &gt; Search &gt; Copy Config &gt; Enjoy it!**
-
-![](/assets/Selection_223.png)
-
-#### III. Sample configuration file structure:
-
-> ##### 1 - Config name
->
-> ##### 2 - Description \[Optional\]
->
-> ##### 3 - Config content
->
-> ##### 4- Source \[Optional\]
->
-> ##### 5- Extras information \[Optional\]
-
-Example: **An Apache Virtual Host Configuration file**
-
----
-
-#### Apache Virtual Host Configuration
+### Apache Virtual Host Configuration
 
 **Description: **
 
 > Config virtual host to redirect different request source \(ip-base, domain-name base \) to relevant destination
 >
-> * Scope: simple config
->
-> * Tested environment : Ubuntu 14.04 lts, apache 2.4
+> Specs:
+> * Apache 2.4
+> * Ubuntu 16.04
+> * Php 5.6
 
 **Config:**
 
@@ -75,7 +42,13 @@ NameVirtualHost *:80
 
 **Extra infomation:**
 
----
+TO\_BE\_UPDATE
+
+**Tags:**
+
+\#apache \#virtualhost \#apache\_directory
+
+##### 
 
 
 
