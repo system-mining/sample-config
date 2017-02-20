@@ -16,6 +16,7 @@
   * [Nginx Basic Authentication With Htaccess](nginx/nginx-basic-authentication-with-htaccess.md)
   * [Nginx Proxy Cache Config  ](nginx/nginx-cache-config.md)
   * [Nginx SSL Config](nginx/nginx-ssl-config.md)
+  * [Nginx Config](nginx/nginx-config.md)
 * Ssh
   * [Ssh config file](ssh-config-file.md)
   * [Sudo Without password](ssh-without-sudo-passwd.md)
