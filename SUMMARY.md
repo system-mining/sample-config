@@ -17,6 +17,7 @@
   * [Nginx Proxy Cache Config  ](nginx/nginx-cache-config.md)
   * [Nginx SSL Config](nginx/nginx-ssl-config.md)
   * [Nginx Config](nginx/nginx-config.md)
+  * [Nginx Fastcgi Config](nginx/nginx-fastcgi-config.md)
 * Ssh
   * [Ssh config file](ssh-config-file.md)
   * [Sudo Without password](ssh-without-sudo-passwd.md)
