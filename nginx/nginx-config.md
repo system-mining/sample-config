@@ -12,6 +12,7 @@
 
 ```
 # vi /etc/nginx/nginx.conf
+
 user       www www;  ## Default: nobody
 worker_processes  5;  ## Default: 1
 error_log  logs/error.log;
@@ -65,6 +66,18 @@ http {
     }
   }
 ```
+
+**Source**
+
+* [https://www.nginx.com/resources/wiki/start/topics/examples/full/](https://www.nginx.com/resources/wiki/start/topics/examples/full/)
+
+**Extra Information:**
+
+TOBEUPATE
+
+**Tag**
+
+\#nginx \#nginx\_config
 
 
 
