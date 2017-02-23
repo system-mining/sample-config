@@ -26,4 +26,6 @@
 * Ssh
   * [Ssh config file](ssh-config-file.md)
   * [Sudo Without password](ssh-without-sudo-passwd.md)
+* [Vsftpd](ftp.md)
+  * [Limit Directory Access Of A  Ftp User](ftp/limit-directory-access-of-a-ftp-user.md)
 
