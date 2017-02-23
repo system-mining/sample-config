@@ -4,8 +4,6 @@
 
 > Retrict a ftp user to access only one directory. example /var/www/html
 >
->
->
 > Specs
 >
 > * Ubuntu: 16.04
@@ -35,12 +33,11 @@ allow_writeable_chroot=YES
 **Source**
 
 * [http://unix.stackexchange.com/questions/94603/limit-ftp-access-only-to-the-var-www-with-vsftpd](http://unix.stackexchange.com/questions/94603/limit-ftp-access-only-to-the-var-www-with-vsftpd)
+* [http://serverfault.com/questions/544850/create-new-vsftpd-user-and-lock-to-specify-home-login-directory](http://serverfault.com/questions/544850/create-new-vsftpd-user-and-lock-to-specify-home-login-directory)
 
 **Extra Information**
 
 **Tags**
 
 \#ftp \#vsfpt \#limit\_access
-
-
 
