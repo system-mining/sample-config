@@ -13,6 +13,8 @@
 **Config:**
 
 ```
+# vi /etc/nginx/sites-available/sample-proxy-sub-category.conf
+
 server {
 
        location /checkin/ {
