@@ -29,5 +29,11 @@ server {
 }
 ```
 
+**Source:**
 
+* [https://www.nginx.com/resources/admin-guide/reverse-proxy/](https://www.nginx.com/resources/admin-guide/reverse-proxy/)
+
+**Tags:**
+
+\#nginx \#reverse\_proxy \#cors
 
