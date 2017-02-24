@@ -23,7 +23,6 @@ services:
     volumes:
       - "you_gitbook_directory:/gitbook"
     command: ["gitbook", "serve"]
-                                  
 ```
 
 **Source**
@@ -53,5 +52,7 @@ gitbook-serve:
 
 **Tags**
 
-\#docker \#docker-compose \#makefile \#gitbook \#git 
+\#docker \#docker-compose \#makefile \#gitbook \#git
+
+
 
