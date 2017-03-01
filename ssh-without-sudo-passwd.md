@@ -17,6 +17,9 @@
 
 #Add command bellow and save it
 your_user ALL=(ALL) NOPASSWD:ALL
+
+# or 
+echo 'your_user ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 ```
 
 **Source**
