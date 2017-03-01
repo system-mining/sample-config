@@ -30,4 +30,6 @@
   * [Sudo Without password](ssh-without-sudo-passwd.md)
 * [Vsftpd](ftp.md)
   * [Limit Directory Access Of A  Ftp User](ftp/limit-directory-access-of-a-ftp-user.md)
+* [Nfs server](nfs-server.md)
+  * [ NFS  exporter server config](nfs-server/basic-nfs-server-config-on-ubuntu.md)
 
