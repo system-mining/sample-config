@@ -1,4 +1,4 @@
-## Docker configure directory
+## Docker configure binary location
 
 **Description**
 
@@ -14,7 +14,6 @@
 ```
 # sudo vi /etc/default/docker
 DOCKERD="your_path_to_dockerd"
-
 ```
 
 **Source**
@@ -26,8 +25,4 @@ DOCKERD="your_path_to_dockerd"
 **Tags**
 
 \#docker
-
-
-
-
 
