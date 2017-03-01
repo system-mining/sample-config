@@ -9,7 +9,7 @@
 > * Docker 1.12
 > * Ubuntu 16.04
 
-**Config**
+**Configure**
 
 ```
 # sudo vi /etc/default/docker

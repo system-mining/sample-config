@@ -7,6 +7,7 @@
   * [Apache Virtual Host Basic Authentication With Htpasswd](apache/apache-basic-authentication-with-htpasswd.md)
 * Docker
   * [Docker configure binary location](docker-config-directory.md)
+  * [Docker Custom Image Directory](docker-custom-image-directory.md)
 * [Docker Compose Sample](docker-compose-sample.md)
   * [Mailhog-docker-compose.yml](maihog.md)
   * [Wordpress-docker-compose..yml](wordpress-docker-compose..yml.md)
