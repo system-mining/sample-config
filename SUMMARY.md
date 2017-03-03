@@ -5,7 +5,7 @@
   * [Apache Virtual Host Configuration ](apache/apache-virtual-host-configuration.md)
   * [Apache Virtual Host Directiory](apache/apache-virtual-host-directiory.md)
   * [Apache Virtual Host Basic Authentication With Htpasswd](apache/apache-basic-authentication-with-htpasswd.md)
-* Docker
+* [Docker](docker.md)
   * [Docker configure binary location](docker-config-directory.md)
   * [Docker Custom Image Directory](docker-custom-image-directory.md)
 * [Docker Compose Sample](docker-compose-sample.md)
@@ -13,6 +13,7 @@
   * [Wordpress-docker-compose..yml](wordpress-docker-compose..yml.md)
   * [Gitbook-docker-compose.yml](gitbook-docker-compose.yml.md)
   * [Elasticsearch Kibana docker-compose.yml](elasticsearch-kibana-docker-compose.yml.md)
+  * [Nats-docker-compose](nats-docker-compose.md)
 * [Jsreport](jsreport.md)
   * [JsReport Behind Nignx Reverse Proxy](jsreport-behind-nignx-reverse-proxy.md)
   * [Manage JsReport With Pm2](manage-jsreport-with-pm2.md)
