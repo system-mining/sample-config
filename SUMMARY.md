@@ -36,4 +36,6 @@
   * [Nginx Server Name Virtual Host](nginx/nginx-server-name-virtual-host.md)
 * [Nfs server](nfs-server.md)
   * [ NFS  exporter server config](nfs-server/basic-nfs-server-config-on-ubuntu.md)
+* [Ubuntu](ubuntu.md)
+  * Add application to dash
 
