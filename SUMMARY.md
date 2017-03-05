@@ -5,6 +5,8 @@
   * [Apache Virtual Host Configuration ](apache/apache-virtual-host-configuration.md)
   * [Apache Virtual Host Directiory](apache/apache-virtual-host-directiory.md)
   * [Apache Virtual Host Basic Authentication With Htpasswd](apache/apache-basic-authentication-with-htpasswd.md)
+* Aws
+  * [Aws Credentials Config](aws-credentials-config.md)
 * [Docker](docker.md)
   * [Docker configure binary location](docker-config-directory.md)
   * [Docker Custom Image Directory](docker-custom-image-directory.md)
@@ -34,9 +36,4 @@
   * [Nginx Server Name Virtual Host](nginx/nginx-server-name-virtual-host.md)
 * [Nfs server](nfs-server.md)
   * [ NFS  exporter server config](nfs-server/basic-nfs-server-config-on-ubuntu.md)
-* [Ssh](ssh.md)
-  * [Ssh config file](ssh-config-file.md)
-  * [Sudo Without password](ssh-without-sudo-passwd.md)
-* [Vsftpd](ftp.md)
-  * [Limit Directory Access Of A  Ftp User](ftp/limit-directory-access-of-a-ftp-user.md)
 
