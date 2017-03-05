@@ -15,6 +15,7 @@
   * [Elasticsearch Kibana docker-compose.yml](elasticsearch-kibana-docker-compose.yml.md)
   * [Nats-docker-compose](nats-docker-compose.md)
   * [Mysql docker-compose](mysql-docker-compose.md)
+  * [Scrapy Splash docker-compose](scrapy-splash-docker-compose.md)
 * [Jsreport](jsreport.md)
   * [JsReport Behind Nignx Reverse Proxy](jsreport-behind-nignx-reverse-proxy.md)
   * [Manage JsReport With Pm2](manage-jsreport-with-pm2.md)
