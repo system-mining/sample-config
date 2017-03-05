@@ -2,7 +2,7 @@
 
 **Description**
 
-> Configure credentials for aws cli on local machine
+> Configure credentials for Aws Cli on local machine
 >
 > Specs:
 >
@@ -24,9 +24,6 @@ region = us-west-1
 [customer_config]
 aws_access_key_id=your_aws_access_key
 aws_secret_access_key=your_aws_secret_key
-
-
-
 ```
 
 
