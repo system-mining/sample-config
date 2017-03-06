@@ -34,6 +34,7 @@
   * [Nginx Mime Types](nginx/nginx-mine-types.md)
   * [Nginx Ip-based Virtual Host](nginx/nginx-ip-based-virtual-host.md)
   * [Nginx Server Name Virtual Host](nginx/nginx-server-name-virtual-host.md)
+  * [Enable Gzip Configure](nginx/enable-gzip-config.md)
 * [Nfs server](nfs-server.md)
   * [ NFS  exporter server config](nfs-server/basic-nfs-server-config-on-ubuntu.md)
 * [Ubuntu](ubuntu.md)
