@@ -4,10 +4,8 @@ When I install OpenVPN to access somewhere privately. But in my computer had Doc
 
 # II. Solution:
 
-I have some research on Google, and have a script to make it automatically.
-
-1. First of all, you can copy the code below. Or you can fork from [https://github.com/trexanhvn/Change-Docker-interface.git](https://github.com/trexanhvn/Change-Docker-interface.git) and pull .sh file.
-2. After that, run this command to .sh file can be running as root
+1. First of all, you can copy the code below.
+2. After that, run it with sudo permisson
    ```
    chmod +x docker.sh
    ```
@@ -141,7 +139,7 @@ case $INIT_SYSTEM in
         ;;
 esac
 
-ec
+echo "done."
 ```
 
 #### Source:
