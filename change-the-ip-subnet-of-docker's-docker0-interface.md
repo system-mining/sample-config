@@ -1,4 +1,6 @@
-# I. Problem:
+# 
+
+SourceI. Problem:
 
 When I install OpenVPN to access somewhere privately. But in my computer had Docker installed already, and Docker take IP range **172.17.0.1/16** to running all containers. This is a reason I cannot connect to OpenVPN server that I configured before. So, I have to change IP range of Docker if I want both of this running parallel.
 
@@ -12,6 +14,7 @@ I have some research on Google, and have a script to make it automatically.
    chmod +x docker.sh
    ```
 3. Finally, running this file with param like this:
+
    ```
    sudo ./docker.sh <ip/CIDR>
    ```
@@ -140,9 +143,7 @@ case $INIT_SYSTEM in
         ;;
 esac
 
-echo "don
-
-
+ec
 ```
 
 
