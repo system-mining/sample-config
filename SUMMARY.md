@@ -10,7 +10,9 @@
   * [Aws Credentials Config](aws-credentials-config.md)
 * [Docker](docker.md)
   * [Docker configure binary location](docker-config-directory.md)
+  * [Change the IP subnet of Docker's docker0 interface](change-the-ip-subnet-of-docker's-docker0-interface.md)
   * [Docker Custom Image Directory](docker-custom-image-directory.md)
+* Change the IP subnet of Docker's docker0 interface
 * [Docker Compose Sample](docker-compose-sample.md)
   * [Elasticsearch Kibana docker-compose.yml](elasticsearch-kibana-docker-compose.yml.md)
   * [Gitbook-docker-compose.yml](gitbook-docker-compose.yml.md)
@@ -38,6 +40,4 @@
   * [Enable Gzip Configure](nginx/enable-gzip-config.md)
 * [Nfs server](nfs-server.md)
   * [ NFS  exporter server config](nfs-server/basic-nfs-server-config-on-ubuntu.md)
-* [Ubuntu](ubuntu.md)
-  * Add application to dash
 
