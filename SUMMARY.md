@@ -10,9 +10,8 @@
   * [Aws Credentials Config](aws-credentials-config.md)
 * [Docker](docker.md)
   * [Docker configure binary location](docker-config-directory.md)
-  * \[Change the IP subnet of Docker's docker0 interface\]\(change-the-ip-subnet-of-dockers-docker0-interface.md\)
   * [Docker Custom Image Directory](docker-custom-image-directory.md)
-* Change the IP subnet of Docker's docker0 interface
+  * \[Change the IP subnet of Dockers docker0 interface\]\(change-the-ip-subnet-of-docker's-docker0-interface.md\)
 * [Docker Compose Sample](docker-compose-sample.md)
   * [Elasticsearch Kibana docker-compose.yml](elasticsearch-kibana-docker-compose.yml.md)
   * [Gitbook-docker-compose.yml](gitbook-docker-compose.yml.md)
