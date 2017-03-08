@@ -17,7 +17,7 @@ I have some research on Google, and have a script to make it automatically.
    sudo ./docker.sh <ip/CIDR>
    ```
 
-   With **&lt;ip/CIDR&gt;** is local address that you want to change to.
+   With **&lt;ip/CIDR&gt;** is thelocal address that you want to change to.
 
 ```
 #!/bin/sh -e
@@ -144,5 +144,11 @@ esac
 ec
 ```
 
-S
+#### Source:
+
+* https://gist.github.com/kamermans/94b1c41086de0204750b
+
+#### **Extra infomation:**
+
+
 
