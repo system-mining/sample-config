@@ -6,8 +6,8 @@
   * [Apache Virtual Host Directiory](apache/apache-virtual-host-directiory.md)
   * [Apache Virtual Host Basic Authentication With Htpasswd](apache/apache-basic-authentication-with-htpasswd.md)
   * [Enable Gzip](apache/enable-gzip.md)
-* Aws
-  * [Aws Credentials Config](aws-credentials-config.md)
+* [Aws](aws.md)
+  * [Aws Credentials Config](aws/aws-credentials-config.md)
 * [Docker](docker.md)
   * [Docker configure binary location](docker-config-directory.md)
   * [Docker Custom Image Directory](docker-custom-image-directory.md)
