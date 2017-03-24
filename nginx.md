@@ -1,37 +1,60 @@
-## Nginx Basic Authentication With Htaccess
+## Ngnix Config
 
+**Description**
 
+> Default nginx config file
+>
+> Specs:
+>
+> * Nginx 1.11
 
-### 1. Htpasswd File {#1-htpasswd-file}
-
-```
-# Generate:
-$ sudo htpasswd -c /etc/nginx/.htpasswd sample_user
-$ sudo htpasswd /etc/nginx/.htpasswd another_user
-
-$ cat /etc/nginx/.htpasswd
-# Output
-sample_user:$apr1$lzxsIfXG$tmCvCfb49vpPFwKGVsuYz.
-another_user:$apr1$p1E9MeAf$kiAhneUwr.MhAE2kKGYHK.
-```
-
-
-
-#### 2. Nginx  Configuration File
+**Config**
 
 ```
-$ cat /etc/nginx/sites-available/example.conf
-# Output
-server {
-    listen       80;
-    server_name  example.com
-    location / {
-        proxy_pass http://localhost:888;
-        auth_basic "Restricted Content";
-        auth_basic_user_file /etc/nginx/conf.d/htpasswd;
-    }
+#vi /etc/nginx/nginx.conf
+#-------------------------------------------------------
+
+user  nginx;
+worker_processes  1;
+
+error_log  /var/log/nginx/error.log warn;
+pid        /var/run/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log  /var/log/nginx/access.log  main;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    keepalive_timeout  65;
+
+    #gzip  on;
+
+    include /etc/nginx/conf.d/*.conf;
+}
 
 ```
+
+**Source**
+
+* [https://www.nginx.com/resources/wiki/start/topics/examples/full/](https://www.nginx.com/resources/wiki/start/topics/examples/full/)
+
+**Tags**
+
+\#nginx
 
 
 

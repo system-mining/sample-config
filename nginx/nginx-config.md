@@ -2,7 +2,7 @@
 
 **Descrption:**
 
-> Default nginx.conf file
+> A Simple nginx.conf file
 >
 > Specs:
 >
@@ -78,6 +78,4 @@ TOBEUPATE
 **Tag**
 
 \#nginx \#nginx\_config
-
-
 

@@ -1,9 +1,9 @@
-### Nginx Reverse Proxy For Subcategory Configuration
+## Nginx Reverse Proxy
 
-**Description:**
+**Decription**
 
-> Setup reverse proxy to  distribute the load among several servers, seamlessly show content from different websites, or pass requests for processing to application servers over protocols other than HTTP.
->
+Setup reverse proxy to  distribute the load among several servers, seamlessly show content from different websites, or pass requests for processing to application servers over protocols other than HTTP.
+
 > Specs:
 >
 > * Ubuntu 16.04
@@ -13,17 +13,10 @@
 **Config:**
 
 ```
-# vi /etc/nginx/sites-available/sample-proxy-sub-category.conf
-
+# vi /etc/nginx/sites-available/sample-proxy.conf
 server {
 
-       location /checkin/ {
-              rewrite ^/checkin(/.*)$ $1 break;
-
-              #Enable CORS
-              add_header Access-Control-Allow-Origin *;
-              add_header X-Frame-Options SAMEORIGIN;
-
+       location / {
               proxy_pass http://localhost:8181;
 
               # Additional Config
