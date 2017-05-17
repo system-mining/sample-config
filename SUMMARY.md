@@ -46,5 +46,6 @@
   * [Sudo config file](ssh/ssh-config-file.md)
   * [Sudo without password](ssh/ssh-without-sudo-passwd.md)
 * [Ubuntu](ubuntu/ubuntu.md)
-
+* Vim Editor
+* Visual Studio Code Editor
 
