@@ -12,12 +12,14 @@
 **Config:**
 
 ```
-# vi /usr/local/apache2/sites-available/vhosts.conf
+# vi ~/.vimrc
 set autoindent
-
+set noexpandtab
+set tabstop=2
+set shiftwidth=2
 ```
 
-* [https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
+* [https://stackoverflow.com/questions/3682582/how-to-use-only-tab-not-space-in-vim/3682602\#3682602](https://stackoverflow.com/questions/3682582/how-to-use-only-tab-not-space-in-vim/3682602#3682602)
 
 **Extra infomation:**
 
@@ -25,5 +27,5 @@ TO\_BE\_UPDATE
 
 **Tags:**
 
-\#apache \#virtualhost \#apache\_directory
+\#vim \#vimrc 
 
