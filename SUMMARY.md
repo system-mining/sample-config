@@ -46,6 +46,7 @@
   * [Sudo config file](ssh/ssh-config-file.md)
   * [Sudo without password](ssh/ssh-without-sudo-passwd.md)
 * [Ubuntu](ubuntu/ubuntu.md)
-* Vim Editor
+* [Vim Editor](vim-editor.md)
+  * Set vim indent
 * Visual Studio Code Editor
 
